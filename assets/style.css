@@ -4,11 +4,6 @@
   margin: 0;
 }
 
-
-
-
-
-
 header {
   background-color: beige;
   display: flex;
@@ -17,13 +12,9 @@ header {
 
 ul {
   background-color: beige;
-  display: flex;
+  display: flex; 
+margin: 6px;}
 
-}
-/*  
-  background-color: #d9dcd6;
-
-}
 
 .header {
   padding: 20px;
@@ -31,7 +22,7 @@ ul {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+ 
 .header h1 {
   display: inline-block;
   font-size: 48px; 
@@ -47,17 +38,8 @@ ul {
   font-size: 20px;
 }
 
-.header div ul {
-  list-style-type: none;
-}
-
-.header div ul li {
-  display: inline-block;
-  margin-left: 25px;
-}
-
 a {
-  color: #ffffff;
+  color: #0c0b0b;
   text-decoration: none;
 }
 
@@ -66,30 +48,9 @@ p {
   font-weight: lighter;
 }
 
-.hero {
-  height: 762px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("../images/digital-marketing-meeting.jpg");
-  background-size: cover;
-  background-position: center;
-}
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
 
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
 
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
 
 .info {
   margin-left: 10px;
@@ -152,71 +113,33 @@ p {
   max-width: 150px;
 }
 
-.search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 33px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 27px;
-  text-align: right;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 27px;
-  text-align: right;
-}
-
 .footer {
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
-  display: none;
+  display: inline-flex;
 }
 
 .footer h2 {
   font-size: 20px;
 } */
+/* This is a container contains links and is spaced for easier readability */
+.container {
+  width: 450px;
+}
+.container ul {
+  padding: 0; 
+  margin: 0;
+  list-style-type: none; 
+  box-sizing: border-box;
+  justify-content: center; 
+  justify-content: space-between;
+}
+.container ul li {
+  width: 150px;
+  height: 100px;
+  background-color: rgb(55, 106, 150);
+  float: left;
+  ;
+}
