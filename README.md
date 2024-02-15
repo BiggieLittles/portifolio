@@ -7,3 +7,5 @@ A link to my personal page on Turo
 Shows what i've learned so far in CSS 
 
 Using border boxes, colors, anchor tags and reference links
+
+file:///Users/biggielittles/Documents/bootcamp/Challenge-02/index.html
